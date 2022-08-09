@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:proxyConfigurationResponse
+	xmlns:tns="http://tigo.com.hn/ProxyConfiguration/V1" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<tns:configurations>
+		<tns:proxyResponseElement commmand="1" destination="1">
+			<tns:orderType>orderType_1</tns:orderType>
+			<tns:quantity>1</tns:quantity>
+			<tns:productId>1</tns:productId>
+		</tns:proxyResponseElement>
+		<tns:proxyResponseElement commmand="2" destination="2">
+			<tns:orderType>orderType_2</tns:orderType>
+			<tns:quantity>2</tns:quantity>
+			<tns:productId>2</tns:productId>
+		</tns:proxyResponseElement>
+		<tns:proxyResponseElement commmand="3" destination="3">
+			<tns:orderType>orderType_3</tns:orderType>
+			<tns:quantity>3</tns:quantity>
+			<tns:productId>3</tns:productId>
+		</tns:proxyResponseElement>
+		<tns:proxyResponseElement commmand="3" destination="3">
+			<tns:orderType>orderType_3</tns:orderType>
+			<tns:quantity>3</tns:quantity>
+			<tns:productId>3</tns:productId>
+		</tns:proxyResponseElement>
+	</tns:configurations>
+</tns:proxyConfigurationResponse>

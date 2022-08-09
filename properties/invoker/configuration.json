@@ -1,0 +1,10 @@
+{
+	"CommonConfiguration": {
+		"connectionRequestTimeout": 15000,
+		"connectTimeout": 15000,
+		"defaultMaxPerRoute": 20,
+		"maxTotal": 200,
+		"socketTimeout": 30000,
+		"expirationTimeCache": 5000
+	}
+}

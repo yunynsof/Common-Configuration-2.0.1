@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ResponseJOSM xmlns:tns="http://www.tigo.com.hn/ResponseJOSM"
+	xmlns:tns15="http://tigo.com.hn/persistence/DatabaseErrorMappingMap/v1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.tigo.com.hn/ResponseJOSM ResponseJOSM.xsd ">
+	<tns:Configurations>
+		<tns:configExpiration>86400000</tns:configExpiration>
+		<tns:DatabaseErrorMapType>
+			<tns15:timeout>86400000</tns15:timeout>			
+			<tns15:databaseErrorNode>
+				<tns15:errorCode>ORA-00001</tns15:errorCode>
+				<tns15:constraints>
+					<tns15:constraintName>Default</tns15:constraintName>
+					<tns15:errorMessage>
+						<tns15:constraintErrorCode>0</tns15:constraintErrorCode>
+						<tns15:constraintErrorMessage>Unique Constraint.</tns15:constraintErrorMessage>
+					</tns15:errorMessage>
+				</tns15:constraints>
+			</tns15:databaseErrorNode>
+			<tns15:databaseErrorNode>
+				<tns15:errorCode>ORA-02291</tns15:errorCode>
+				<tns15:constraints>
+					<tns15:constraintName>Default</tns15:constraintName>
+					<tns15:errorMessage>
+						<tns15:constraintErrorCode>0</tns15:constraintErrorCode>
+						<tns15:constraintErrorMessage>Integrity Constraint.</tns15:constraintErrorMessage>
+					</tns15:errorMessage>
+				</tns15:constraints>				
+			</tns15:databaseErrorNode>
+		</tns:DatabaseErrorMapType>
+	</tns:Configurations>
+	<tns:status>
+		<tns:status>0</tns:status>
+		<tns:code>0</tns:code>
+	</tns:status>
+</tns:ResponseJOSM>

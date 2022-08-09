@@ -1,0 +1,17 @@
+hn\com\tigo\josm\common\configuration\utils\ConfigurationUtils.class
+hn\com\tigo\josm\common\configuration\utils\ConfigurationEnum.class
+hn\com\tigo\josm\common\configuration\oauth\HttpConnector.class
+hn\com\tigo\josm\common\configuration\cache\ConfigurationCache.class
+hn\com\tigo\josm\common\configuration\entities\ExecutionLogEntity.class
+hn\com\tigo\josm\common\configuration\dto\ConfigurationFileNameList.class
+hn\com\tigo\josm\common\configuration\jmx\CommonConfigurationMXBean.class
+hn\com\tigo\josm\common\configuration\dto\OauthRequest.class
+hn\com\tigo\josm\common\configuration\jmx\CommonConfigurationManager.class
+hn\com\tigo\josm\common\configuration\utils\ConfigurationConstants.class
+hn\com\tigo\josm\common\configuration\oauth\OauthOperation.class
+hn\com\tigo\josm\common\configuration\utils\ConfigurationQueries.class
+hn\com\tigo\josm\common\configuration\dto\OauthResponse.class
+hn\com\tigo\josm\common\configuration\implementation\ConfigurationImpl.class
+hn\com\tigo\josm\common\configuration\implementation\ConfigurationJosm.class
+hn\com\tigo\josm\common\configuration\entities\ConfigurationEntity.class
+hn\com\tigo\josm\common\configuration\dto\ConfigutationDto.class

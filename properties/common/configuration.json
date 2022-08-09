@@ -1,0 +1,6 @@
+{
+   "url": "ConfigurationJosm/ConfigurationService",
+   "grant": "ALL",
+   "urlToken":"http://192.168.172.140:8085/OAuth2Module/OAuth2/validatetoken",
+   "configExpiration": 84000000
+}
