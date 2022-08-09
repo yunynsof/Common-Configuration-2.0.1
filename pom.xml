@@ -283,11 +283,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>10.2.0</version>
-			<scope>test</scope>
-		</dependency>
+  <groupId>com.oracle.database.jdbc</groupId>
+  <artifactId>ojdbc6</artifactId>
+  <version>11.2.0.4</version>
+</dependency> 
 
 	</dependencies>
 
